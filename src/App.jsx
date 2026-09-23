@@ -1,4 +1,3 @@
-import React from 'react'
 import Routing from './config/Routing'
 
 function App() {

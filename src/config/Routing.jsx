@@ -1,12 +1,11 @@
-import React from 'react'
 import { Routes,Route } from 'react-router-dom'
-import Login from '../features/auth/pages/login'
-import Register from '../features/auth/pages/register'
-import Home from '../features/taskmanager/pages/home'
+import Login from '../features/auth/pages/Login'
+import Register from '../features/auth/pages/Register'
+import Home from '../features/taskmanager/pages/Home'
+import AdminHome from '../features/taskmanager/pages/AdminHome.jsx'
 import CreatePost from '../features/taskmanager/pages/CreatePost'
-import ProtectRoute from '../core/component/ProtectRoute'
-import AdminHome from '../features/taskmanager/pages/AdminHome'
 import Profile from '../features/taskmanager/pages/Profile'
+import ProtectRoute from '../core/component/ProtectRoute'
 
 function Routing() {
   return (
