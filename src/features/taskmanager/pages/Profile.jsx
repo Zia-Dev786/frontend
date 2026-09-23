@@ -89,7 +89,7 @@
 // export default Profile
 
 
-import React, { useContext, useEffect, useState } from "react";
+import  { useContext, useEffect, useState } from "react";
 import { userContext } from "../../../core/hooks/user";
 import Navbar from "../component/Navbar";
 import { getUserPost } from "../services/post_services";
